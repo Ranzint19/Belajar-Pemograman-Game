@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    tools:context=".ApkLayer">
+
+    <ImageView
+        android:id="@+id/ground2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#66FFFFFF"
+        android:scaleX="1"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background1" />
+
+    <FrameLayout
+        android:id="@+id/frameLy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/navBar"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ground"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#66FFFFFF"
+                android:scaleX="1"
+                android:scaleY="1.5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/background1" />
+
+            <ImageView
+                android:id="@+id/Head"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:background="#07345D"
+                app:layout_constraintEnd_toEndOf="@+id/ground"
+                app:layout_constraintStart_toStartOf="@+id/ground"
+                app:layout_constraintTop_toTopOf="@+id/ground" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Nama Orang "
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/Head"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/Head" />
+
+            <ImageView
+                android:id="@+id/Body"
+                android:layout_width="337dp"
+                android:layout_height="550dp"
+                android:layout_marginTop="12dp"
+                android:background="#66FFFFFF"
+                app:layout_constraintEnd_toEndOf="@+id/ground"
+                app:layout_constraintStart_toStartOf="@+id/ground"
+                app:layout_constraintTop_toBottomOf="@+id/Head" />
+
+            <Button
+                android:id="@+id/kalkulator"
+                android:layout_width="153dp"
+                android:layout_height="129dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:background="#FFFFFF"
+                android:fontFamily="monospace"
+                android:text="Kalkulator"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/Body"
+                app:layout_constraintTop_toTopOf="@+id/Body" />
+
+            <Button
+                android:id="@+id/suhu"
+                android:layout_width="153dp"
+                android:layout_height="129dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:background="#FFFFFF"
+                android:fontFamily="monospace"
+                android:text="KONVER SUHU"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/Body"
+                app:layout_constraintTop_toBottomOf="@+id/kalkulator" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="153dp"
+                android:layout_height="129dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:background="#FFFFFF"
+                android:fontFamily="monospace"
+                android:text="...."
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/Body"
+                app:layout_constraintTop_toBottomOf="@+id/suhu" />
+
+            <Button
+                android:id="@+id/uang"
+                android:layout_width="146dp"
+                android:layout_height="125dp"
+                android:layout_marginTop="12dp"
+                android:background="#FFFFFF"
+                android:fontFamily="monospace"
+                android:text="KONFERSI MATA UANG"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/Body"
+                app:layout_constraintHorizontal_bias="0.576"
+                app:layout_constraintStart_toEndOf="@+id/suhu"
+                app:layout_constraintTop_toBottomOf="@+id/bmi" />
+
+            <Button
+                android:id="@+id/bmi"
+                android:layout_width="142dp"
+                android:layout_height="127dp"
+                android:layout_marginTop="12dp"
+                android:background="#FFFFFF"
+                android:fontFamily="monospace"
+                android:text="BMI"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/Body"
+                app:layout_constraintStart_toEndOf="@+id/kalkulator"
+                app:layout_constraintTop_toTopOf="@+id/Body" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66332C34"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

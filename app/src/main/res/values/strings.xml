@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Belajar Pemograman Game</string>
+
+    <!--Customize String Value -->
+    <string name="Hello_World"> Pendaftaran Pegawai!!</string>
+    <string name="Oke"> Oke</string>
+    <string name="Download"> Download</string>
+    <string name="Materi">Sejarah dan Perkembangan Kalkulator
+Kalkulator merupakan alat bantu hitung yang banyak digunakan dalam berbagai macam hal. Saat ini kalkulator telah mengalami banyak perkembangan dan dapat melakukan penelesaian fungsi matematika yang lebih rumit atau bahkan menampilkan grafik dan diagram. Terdapat berbagai macam jenis kalkulator yang memiliki fitur dan fungsinya masing-masing.
+Bentuk kalkulator yang kita gunakan saat ini merupakan hasil penemuan dan pengembangan lebih lanjut dari bentuk awal dan fungsi dari kalkulator itu sendiri.
+1. Kalkulator Pertama (Abacus/Sempoa)
+
+Pada awalnya, Kalkulator paling sederhana yang ditemukan adalah sempoa atau abacus. Sempoa adalah alat hitung mekanis yang dioperasikan dengan tangan dengan Prinsip penggunaan yang sangat sederhana yaitu bingkai sempoa memegang serangkaian batang yang terdiri atas sepuluh manik-manik yang dapat digeser pada masing-masing batang.
+Sempoa pertama kali digunakan oleh bangsa Sumeria dan Mesir sekitar tahun 2000 SM. Penggunaan sempoa sebagai alat bantu tersebut digunakan kurang lebih selama 3.600 tahun, hingga pada awal abad ke-17 kalkulator mekanik pertama mulai ditemukan di Eropa.
+
+2. Kalkulator Mekanis Pertama (Pascaline)
+
+Kalkulator mekanik pertama kali ditemukan pada tahun 1642 oleh seorang ahli matematika asal Prancis yaitu Blaise Pascal dimana perangkat yang dapat melakukan keempat operasi aritmatika tanpa mengandalkan kecerdasan manusia.
+Mesin hitung Pascal menggunakan roda yang diarahkan dan dapat ditambah atau dikurangi dengan dua digit angka secara langsung dan dapat melakukan perkalian dan pembagian dengan pengulangan.
+
+3. Kalkulator Mekanis yang Diproduksi Massal (Arithmometer)
+
+Arithmometer adalah mesin penghitung yang dapat menyelesaikan operasi dasar matematika yaitu penambahan, pengurangan, perkalian, dan pembagian yang berhasil diproduksi secara massal. Arithometer ditemukan oleh Charles Xavier Thomas de Colmar pada tahun 1820 yang mendasarkan pada mekanisme drum langkah penemuan Leibniz. Mesin ini menampilkan tampilan hasil kedua untuk pengurangan dan pembagian serta gear perkalian.
+Produksi Arithmometer secara massal pada tahun 1851, dimana Arithmometer merupakan satu-satunya jenis kalkulator mekanik yang dikomersialkan dari tahun 1878 hingga 1887 di seluruh dunia, dan masih digunakan hingga Perang Dunia I.
+
+Dengan semakin berkembangnya perangkat seluler  yang mulai beralih pada tampilan full-color pada awal 2000an. Kalkulator PRIZM Casio layar penuh warna dengan resolusi 216x384 mulai diperkenalkan pada akhir 2010. kalkulator scientific dengan grafik berwarna tersebut memungkinkan untuk membuat tampilan grafik dengan beberapa kombinasi warna yang dapat memudahkan dalam pembacaan, dimana pada jenis kalkulator grafik sebelumnya memiliki tampilan monokram dengan piksel rendah.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="temperature_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+</resources>
